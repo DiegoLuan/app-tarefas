@@ -4,6 +4,7 @@
       <li v-for="itens in lista" :key="itens.key">
         <span>{{ itens.text }}</span>
         <button @click="deletarTarefa(itens.key)">Concluir</button>
+        <span>Testando aplicação</span>
       </li>
     </ul>
   </div>

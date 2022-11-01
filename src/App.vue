@@ -12,6 +12,11 @@ export default {
   components: {
     Tarefas,
   },
+  methods: {
+    consoleLog(){
+      console.log("Olá, estou editando através do gitHub")
+    }
+  }
 };
 </script>
 
